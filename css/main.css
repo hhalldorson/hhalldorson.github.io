@@ -66,21 +66,31 @@ textarea {
 }
 h1 {
   font-family: helvetica, sans-serif;
-  color: black;
+  color: #B2B2B2;
   size: 25px;
   text-align: left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+p.intro{
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
 }
 
-.coastalpeopleslogo {
-  padding: 16px;
+a.basallogo {
+  padding: 0px;
   margin: 0 auto;
   display: block;
-  width: 80%;
-  max-width: 500px;
+  align: center;
+  width: 200%;
+  max-width: 1000px;
+  max-height : 400px;
 }
 
-.coastalpeopleslogo img {
-  width: 100%;
+.imgs img {
+  width: 50%;
 }
 .aboutimage {
   width: 85%;
@@ -103,10 +113,10 @@ padding-top: 20px;
 }
 
 .main-nav li {
-  margin-bottom: 2px;
+  margin-bottom: 0px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: red;
+  border-bottom-color: #2FBF71;
 }
 
 .main-nav a {
@@ -114,9 +124,9 @@ padding-top: 20px;
   display: block;
   padding-top: 15px;
   padding-right: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   padding-left: 10px;
-  color: gray;
+  color: #CECECE;
   text-decoration: none;
   font-family: Helvetica, sans-serif;
 }
@@ -128,7 +138,7 @@ padding-top: 20px;
 @media screen and (min-width: 600px) {
   .main-nav {
     background-color: white;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #2FBF71;
   }
 
   .main-nav li {
@@ -141,7 +151,7 @@ padding-top: 20px;
   }
 
   .main-nav a:hover {
-    background-color: red;
+    background-color: #2FBF71;
   }
 
   .main-nav a:hover:active {
